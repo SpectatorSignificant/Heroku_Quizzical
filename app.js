@@ -234,7 +234,6 @@ app.post("/created", (req, res) => {
     // res.render("create2.ejs", {quizName, numberOfQuestions});
 })
 
-
 let PORT = process.env.PORT;
 if (PORT == null || PORT == "") {
   PORT = 3000;
